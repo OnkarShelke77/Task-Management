@@ -49,41 +49,6 @@ TaskList: src/components/TaskList.js
 
 4.Run the backend server: npm start
 
-##Project Structure##
-
-task-management-app/
-├── backend/
-│   ├── node_modules/
-│   ├── src/
-│   │   ├── controllers/
-│   │   │   └── taskController.js
-│   │   ├── models/
-│   │   │   └── task.js
-│   │   ├── routes/
-│   │   │   └── taskRoutes.js
-│   │   ├── app.js
-│   │   └── server.js
-│   ├── .env
-│   ├── package.json
-│   ├── package-lock.json
-│   └── README.md
-└── frontend/
-    ├── node_modules/
-    ├── public/
-    ├── src/
-    │   ├── components/
-    │   │   ├── TaskForm.js
-    │   │   ├── TaskItem.js
-    │   │   └── TaskList.js
-    │   ├── App.js
-    │   ├── index.js
-    │   └── App.css
-    ├── .env
-    ├── package.json
-    ├── package-lock.json
-    └── README.md
-
-
 Conclusion:
 
 This Task Management Application provides a simple yet effective solution for managing tasks. The combination of a Node.js backend and a React frontend, along with deployments on Heroku and Netlify, demonstrates a full-stack approach to web application development.
